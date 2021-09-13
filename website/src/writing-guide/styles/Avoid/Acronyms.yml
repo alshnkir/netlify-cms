@@ -1,7 +1,7 @@
 extends: existence
-message: "'%s' is redundant."
+message: "'%s' is redundant The size is too big."
 ignorecase: true
-level: error
+level: warning
 action:
   name: edit
   params:
